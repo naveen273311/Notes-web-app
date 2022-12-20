@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<title>Notes</title>
+<link rel="stylesheet" href="an.css">
+<div id=editor contenteditable></div>
+<div id=aside>
+	<button id=destroy onclick="localStorage.clear();location.hash='#0';location.reload()">Delete all</button>
+	<button id=add onclick="create()">+</button>
+	<div id=entries></div>
+</div>
+<script src="notes.js"></script>
